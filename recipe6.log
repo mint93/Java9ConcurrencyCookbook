@@ -1,0 +1,28 @@
+[FINER] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main() : ENTRY
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Launching thread: 0
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread created: Thread-0
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Launching thread: 1
+[FINER] - Sat Jun 22 15:50:57 CEST 2019 : Thread-0.run() : ENTRY
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread created: Thread-1
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Launching thread: 2
+[FINER] - Sat Jun 22 15:50:57 CEST 2019 : Thread-1.run() : ENTRY
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread created: Thread-2
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Launching thread: 3
+[FINER] - Sat Jun 22 15:50:57 CEST 2019 : Thread-2.run() : ENTRY
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread created: Thread-3
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Launching thread: 4
+[FINER] - Sat Jun 22 15:50:57 CEST 2019 : Thread-3.run() : ENTRY
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread created: Thread-4
+[INFO] - Sat Jun 22 15:50:57 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : 5 Threads created. Waiting for its finalization
+[FINER] - Sat Jun 22 15:50:57 CEST 2019 : Thread-4.run() : ENTRY
+[FINER] - Sat Jun 22 15:50:59 CEST 2019 : Thread-0.run() : RETURN
+[INFO] - Sat Jun 22 15:50:59 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread has finished its execution
+[FINER] - Sat Jun 22 15:50:59 CEST 2019 : Thread-1.run() : RETURN
+[INFO] - Sat Jun 22 15:50:59 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread has finished its execution
+[FINER] - Sat Jun 22 15:50:59 CEST 2019 : Thread-2.run() : RETURN
+[INFO] - Sat Jun 22 15:50:59 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread has finished its execution
+[FINER] - Sat Jun 22 15:50:59 CEST 2019 : Thread-3.run() : RETURN
+[INFO] - Sat Jun 22 15:50:59 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread has finished its execution
+[FINER] - Sat Jun 22 15:50:59 CEST 2019 : Thread-4.run() : RETURN
+[INFO] - Sat Jun 22 15:50:59 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main : Thread has finished its execution
+[FINER] - Sat Jun 22 15:50:59 CEST 2019 : chapter09_testingConcurrentApplications.recipe06_logging.main.Main.main() : RETURN
